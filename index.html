@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pomodoro Clock</title>
+
+  <!--- Import jQuery --->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!--- Import Bootstrap --->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+  <!--- Import Javascript & Stylesheet --->
+  <script src="js/index.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Header: Title & Info-->
+  <section class="main-header">
+    <h1 class="header-title">Pomodoro Clock</h1>
+    <h2 class="header-description">Chong Jia Sheng, freeCodeCamp.</h2>
+  </section>
+
+  <!-- Visual looks on the lenght of time -->
+  <section class="pomo-start">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-1"><button class="pomo-minus">-</button></div>
+      <div class="col-md-4"><span class="pomo-timer">25</span><span class="pomo-divider"></span><span class="pomo-seconds"></span></div>
+      <div class="col-md-1"><button class="pomo-plus">+</button></div>
+      <div class="col-md-3"></div>
+    </div>
+  </section>
+
+  <!-- Just the button Kappa -->
+  <section class="just-the-button">
+    <button class="start-stop-button"><h1>START / STOP</h1></button>
+  </section>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+  overflow: hidden;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  font-size: 16px;
+  background: url(http://i.imgur.com/6hU8do8.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-header h1,
+.main-header h2 {
+  color: white;
+  text-shadow: 2px 2px #000000;
+}
+
+.header-title {
+  text-align: center;
+  font-size: 50px;
+}
+
+.header-description {
+  text-align: center;
+  font-size: 20px;
+}
+
+.pomo-start {
+  display: block;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px;
+  border-radius: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+.pomo-timer,
+.pomo-divider,
+.pomo-seconds {
+  font-size: 100px;
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.pomo-minus {
+  background-color: Transparent;
+  border-color: Transparent;
+  font-size: 100px;
+  color: white;
+  text-shadow: 3px 4px 3px rgba(0,0,0,0.4),
+               3px 8px 13px rgba(0,0,0,0.1),
+               3px 18px 23px rgba(0,0,0,0.1);
+}
+
+.pomo-plus {
+  background-color: Transparent;
+  border-color: Transparent;
+  font-size: 100px;
+  color: white;
+  text-shadow: 3px 4px 3px rgba(0,0,0,0.4),
+               3px 8px 13px rgba(0,0,0,0.1),
+               3px 18px 23px rgba(0,0,0,0.1);
+}
+
+.just-the-button {
+  padding-top: 20px;
+}
+
+.start-stop-button{
+  background-color: Transparent;
+  border-color: Transparent;
+  font-size: 40px;
+  color: white;
+  text-shadow: 3px 4px 3px rgba(0,0,0,0.4),
+               3px 8px 13px rgba(0,0,0,0.1),
+               3px 18px 23px rgba(0,0,0,0.1);
+}
